@@ -10,6 +10,9 @@ default_dirs:
     - global: ~/.agents/commands/
 
 library:
-  skills: []
+  skills:
+    - name: worktrunk
+      description: Guidance for Worktrunk, a CLI tool for managing git worktrees. Covers configuration, usage, and troubleshooting.
+      source: /Users/joevallejo/.agents/skills/worktrunk/SKILL.md
   agents: []
   prompts: []
