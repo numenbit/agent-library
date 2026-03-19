@@ -1,7 +1,7 @@
 ---
 name: library
 description: Private skill distribution system. Use when the user wants to install, use, add, push, remove, sync, list, or search for skills, agents, or prompts from their private library catalog. Triggers on /library commands or mentions of library, skill distribution, or agentic management.
-argument-hint: [command or prompt] [name or details]
+argument-hint: "[command or prompt] [name or details]"
 ---
 
 # The Library
@@ -12,9 +12,9 @@ A meta-skill for private-first distribution of agentics (skills, agents, and pro
 
 > Update these after forking and cloning the library repo.
 
-- **LIBRARY_REPO_URL**: `<your forked repo url>`
-- **LIBRARY_YAML_PATH**: `~/.claude/skills/library/library.yaml`
-- **LIBRARY_SKILL_DIR**: `~/.claude/skills/library/`
+- **LIBRARY_REPO_URL**: `git@github.com:numenbit/agent-library.git`
+- **LIBRARY_YAML_PATH**: `~/.agents/skills/library/library.yaml`
+- **LIBRARY_SKILL_DIR**: `~/.agents/skills/library/`
 
 ## How It Works
 
